@@ -4,10 +4,10 @@ A working example of a BLE Keyboard Peripheral (Server) ran on my Raspberry PI4-
 
 Verified working connected to my Blade Android, Windows 10 laptop, and Amazon FireTV stick devices
 
-### TIPS:
+#### TIPS:
 
 #### Tip #1:
-    Ensure you use Bluez Version 5.56 or better. This example uses Bluez features that were only experimental in prior versions.
+Ensure you use Bluez Version 5.56 or better. This example uses Bluez features that were only experimental in prior versions.
 
 #### Tip #2:
     The PI4 ships with a dual bluetooth chip. You must ensure you pair devices in BLE mode. To help, change this option in the /etc/bluetooth/main.conf file:
