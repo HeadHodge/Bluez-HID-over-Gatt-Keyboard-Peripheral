@@ -10,6 +10,7 @@ TIPS:
 
 Tip #1:
   The PI4 ships with a dual bluetooth chip. You must ensure you pair devices in BLE mode. To help, change this option   in the /etc/bluetooth/main.conf file:
+
 `
 #Restricts all controllers to the specified transport. Default value
 #is "dual", i.e. both BR/EDR and LE enabled (when supported by the HW).
