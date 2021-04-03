@@ -8,12 +8,12 @@ NOTE: Ensure you use Bluez Version 5.56 or better. This example uses Bluez featu
 
 TIPS:
 
-  The PI4 ships with a dual bluetooth chip. You must ensure you pair devices in BLE mode. To help, change this option in the /etc/bluetooth/main.conf file:
-
-# Restricts all controllers to the specified transport. Default value
-# is "dual", i.e. both BR/EDR and LE enabled (when supported by the HW).
-# Possible values: "dual", "bredr", "le"
-#ControllerMode = dual
-#ControllerMode = bredr
-ControllerMode = le
+Tip #1:
+  The PI4 ships with a dual bluetooth chip. You must ensure you pair devices in BLE mode. To help, change this option   in the /etc/bluetooth/main.conf file:
+  #Restricts all controllers to the specified transport. Default value
+  #is "dual", i.e. both BR/EDR and LE enabled (when supported by the HW).
+  #Possible values: "dual", "bredr", "le"
+  #ControllerMode = dual
+  #ControllerMode = bredr
+  ControllerMode = le
 
