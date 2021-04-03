@@ -4,3 +4,4 @@ A working example ran on my Raspberry PI4-b with Buuster Raspbian-Lite for all t
 
 Verified working on my Blade Android, my Windows 10 laptop, and my Amazon FireTV stick
 
+NOTE: Ensure you use Bluez Version 5.56 or better. This example uses Bluez features that were only experimental in prior versions.
