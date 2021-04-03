@@ -23,3 +23,6 @@ ControllerMode = le
 
 #### Tip #3:
 Once you have this example running, use the Bluetoothctl command to make sure your bluetooth controller's 'power' option is on and that the 'advertise' option is on. This will advertise your bluetooth controller to other bluetooth client devices in order to discover and pair with your server. You can write your own GAD service to programically advertise your device, but it's not required if you properly use the BluetoothCtl or BtMgmt tools that ship with Bluez.
+
+#### Tip #4:
+I have not tested this yet.... But to eliminate the questions during pairing, try setting the Bluez default-agent option to 'noInputnoOutput'. Also use the Bluetoothctl command to 'trust' the client device your connecting with.
