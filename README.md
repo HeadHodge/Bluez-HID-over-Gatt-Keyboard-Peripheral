@@ -10,7 +10,7 @@ Tip #1:
     Ensure you use Bluez Version 5.56 or better. This example uses Bluez features that were only experimental in prior versions.
 
 Tip #2:
-  The PI4 ships with a dual bluetooth chip. You must ensure you pair devices in BLE mode. To help, change this option   in the /etc/bluetooth/main.conf file:
+    The PI4 ships with a dual bluetooth chip. You must ensure you pair devices in BLE mode. To help, change this option in the /etc/bluetooth/main.conf file:
 
 ```python
 #Restricts all controllers to the specified transport. Default value
@@ -20,3 +20,6 @@ Tip #2:
 #ControllerMode = bredr
 ControllerMode = le
 ```
+
+Tip #3:
+    Once you have this example running, use the Bluetoothctl command to make sure your bluetooth controller's 'power' option is on and that the 'advertise' option is on. This will advertise your bluetooth controller to other bluetooth client devices in order to discover and pair with your server.
