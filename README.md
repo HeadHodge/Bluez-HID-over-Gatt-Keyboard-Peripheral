@@ -13,10 +13,9 @@ Tip #1:
 
 `#Restricts all controllers to the specified transport. Default value
 #is "dual", i.e. both BR/EDR and LE enabled (when supported by the HW).`
-
 `#Possible values: "dual", "bredr", "le"`
 
-#ControllerMode = dual
+`#ControllerMode = dual`
 #ControllerMode = bredr
 ControllerMode = le
 
